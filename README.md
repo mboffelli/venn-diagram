@@ -13,4 +13,4 @@ This repository hosts an interactive Venn diagram with three circles. When you h
 To see the interactive Venn diagram, please visit the [Interactive Venn Diagram Page](https://mboffelli.github.io/venn-diagram/).
 
 ## Static Venn Diagram
-![Static Venn Diagram](https://github.com/mboffelli/venn-diagram/blob/main/venn-diagram.png)
+![Static Venn Diagram](https://github.com/mboffelli/venn-diagram/blob/main/venn-diagram-3.png)
