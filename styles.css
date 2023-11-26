@@ -43,7 +43,7 @@ body, html {
 
 #circleC {
   background-color: green;
-  color: black; /* modify so it appears clearly*/
+  color: white; /* modify so it appears clearly*/
   left: 75px;
   top: 5px;
 }
