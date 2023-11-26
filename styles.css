@@ -9,6 +9,8 @@ body, html {
 
 .venn-diagram {
   position: relative;
+  width: 240px;
+  height: 200px;
 }
 
 .circle {
@@ -23,21 +25,25 @@ body, html {
   font-weight: bold;
   color: white;
   cursor: pointer;
+  mix-blend-mode: multiply;
 }
 
 #circleA {
   background-color: red;
-  left: 30px;
+  left: 10px;
+  top: 50px;
 }
 
 #circleB {
   background-color: blue;
-  left: 70px;
+  left: 65px;
+  top: 50px;
 }
 
-/* Overlapping area */
-#circleA, #circleB {
-  mix-blend-mode: multiply;
+#circleC {
+  background-color: green;
+  left: 35px;
+  top: 5px;
 }
 
 .circle:hover {
