@@ -1,0 +1,46 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f7f7f7;
+}
+
+.venn-diagram {
+  position: relative;
+}
+
+.circle {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  transition: all 0.3s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+}
+
+#circleA {
+  background-color: red;
+  left: 30px;
+}
+
+#circleB {
+  background-color: blue;
+  left: 70px;
+}
+
+/* Overlapping area */
+#circleA, #circleB {
+  mix-blend-mode: multiply;
+}
+
+.circle:hover {
+  transform: scale(1.2);
+  z-index: 10;
+}
