@@ -2,8 +2,6 @@
 
 This repository hosts an interactive Venn diagram with three circles. When you hover over each circle, it will be highlighted and slightly enlarged.
 
-![Static Venn Diagram](https://github.com/mboffelli/venn-diagram/blob/main/venn-diagram.png)
-
 ## Features
 
 - **Interactivity:** Circles enlarge and highlight on hover.
@@ -13,3 +11,6 @@ This repository hosts an interactive Venn diagram with three circles. When you h
 ## View the Diagram
 
 To see the interactive Venn diagram, please visit the [Interactive Venn Diagram Page](https://mboffelli.github.io/venn-diagram/).
+
+## Static Venn Diagram
+![Static Venn Diagram](https://github.com/mboffelli/venn-diagram/blob/main/venn-diagram.png)
